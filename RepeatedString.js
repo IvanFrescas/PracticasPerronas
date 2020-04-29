@@ -51,5 +51,6 @@ function CountingA(s, n) {
     console.log(result);
 
 }
+
 CountingA(s, n);    //good performance
-repeatedString(s, n); //bad performance
+//repeatedString(s, n); //bad performance
