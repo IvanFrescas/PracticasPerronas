@@ -6,9 +6,7 @@ function bonAppetite(bill, k, b){
 
     var total = 0;
     var splitAccount = 0;
-    bill.map((item) => {
-        return total += item;
-    });
+    bill.map((item) => total += item);
     splitAccount = (total - bill[k])/2;
     if(b == splitAccount){
         console.log('Bon Appetit');
