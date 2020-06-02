@@ -26,4 +26,4 @@ function leftRotationFaster(a, d){
     console.log(a);
 }
 
-leftRotation(a, d);
+leftRotationFaster(a, d);
